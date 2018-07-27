@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<item>
+<title>Stargate: El contínuo </title>
+<link>http://streamcloud.eu/tkomjo5z8g5m/Stargate_El_cont__nuo.DVD.Castellano.avi.html</link>
+<thumbnail>http://is3.mzstatic.com/image/thumb/Video/v4/81/a7/3b/81a73b22-747b-9524-b664-325a448e93e9/source/227x227bb.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR white][COLOR yellow] •  [/COLOR]Stargate, el arca de la verdad[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>http://e03-elmundo.uecdn.es/assets/multimedia/imagenes/2014/01/03/13887540666983.jpg</fanart>
+<thumbnail>http://www.nadacomercial.com/wordpress/wp-content/uploads/2013/01/Logo-cine-catastrofico.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ijordi/viajes-en-el-tiempo-paradojas-90490/2008-stargate-el-arca-de-la-verdad,1568053.mp4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/cine-catastrofico-86100/list,1,100</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>http://e03-elmundo.uecdn.es/assets/multimedia/imagenes/2014/01/03/13887540666983.jpg</fanart>
+<thumbnail>https://pics.filmaffinity.com/stargate_the_ark_of_truth-383137681-large.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>[COLOR lime]TEMPORADA 1[/COLOR]</title>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+<link>http://</link>
+</item>
+
+<item>
+<title>Capítulo  1 Parte 1</title>
+<link>http://streamcloud.eu/jjggstm5yzhd/Stargate.SG1.1x01.Los_hljos_de_los_dioses__1___parte_.avi.html</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  2 Parte 2</title>
+<link>http://streamcloud.eu/c6lrc1by8uj7/Stargate.SG1.1x02.Los_hljos_de_los_dioses__2___parte_.avi.html</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  3</title>
+<link>http://streamcloud.eu/i5beej1lnusi/Stargate.SG1.1x03.El_enemigo_interior.avi.html</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  4</title>
+<link>http://streamcloud.eu/ddtyfyf7b3iy/Stargate.SG1.1x04.Emancipaci__n.avi.html</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  5</title>
+<link>http://streamcloud.eu/ehfzyj5hl6th/1x05.St4r.G4t3.mHD720p.mkv.html</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  6</title>
+<link>http://streamcloud.eu/657ktlya09ud/1x06.St4r.G4t3.mHD720p.mkv.html</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  7</title>
+<link>http://streamcloud.eu/gewpivpbmhyi/1x07.St4r.G4t3.mHD720p.mkv.html</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  8</title>
+<link>http://streamcloud.eu/939thaww2g8b/1x08.St4r.G4t3.mHD720p.mkv.html</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  9</title>
+<link>http://streamcloud.eu/9b7s9rcjxivi/1x09.St4r.G4t3.mHD720p.mkv.html</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  10</title>
+<link>http://streamcloud.eu/atd93vlzt6mk/1x10.St4r.G4t3.mHD720p.mkv.html</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  11</title>
+<link>http://streamcloud.eu/qi2qc44y49lj/1x11.St4r.G4t3.mHD720p.mkv.html</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  12</title>
+<link>http://streamcloud.eu/kmoweo9xppaa/1x12.St4r.Pv3rta.mHD720p.mkv.html</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  13</title>
+<link>http://streamcloud.eu/fdbc608f5xw7/1x13.St4r.Pv3rta.mHD720p.mkv.html</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  14</title>
+<link>http://streamcloud.eu/fox3yhpad853/1x14.Srg4t3mHD720p.mkv.html</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  15</title>
+<link>http://streamcloud.eu/1iyklky0iqis/1x15.Srg4t3mHD720p.mkv.html</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  16</title>
+<link>http://streamcloud.eu/z9yflz9ut9vn/Stargate_SG-1_1x16.avi.html</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  17</title>
+<link>http://streamcloud.eu/i4z54sjbuv7x</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  18</title>
+<link>http://streamcloud.eu/qg9y62h44chr/1x18.Srg4t3mHD720p.mkv.html</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  19</title>
+<link>http://streamcloud.eu/apc2feg2edxk</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  20</title>
+<link>http://streamcloud.eu/o4yx67ur5700</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  21</title>
+<link>http://streamcloud.eu/rv9chwdlms0d</link>
+<thumbnail>http://www.formulatv.com/images/series/posters/400/425/1_m1.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[COLOR lime]TEMPORADA 2[/COLOR]</title>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+<link>http://</link>
+</item>
+
+<item>
+<title>Capítulo  1</title>
+<link>http://streamcloud.eu/ns2hckrexiwn/2x01.Strg4t.mHD720p.mkv.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  2</title>
+<link>http://streamcloud.eu/t3g8yzm4g7k3/strg.sg1.Esp.F.2x02_ES.avi.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  3</title>
+<link>http://streamcloud.eu/nwqof51celci/2x03.Strg4t.mHD720p.mkv.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  4</title>
+<link>http://streamcloud.eu/5dp7dr327t96/2x04.Strg4t.mHD720p.mkv.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  5</title>
+<link>http://streamcloud.eu/ms9giga35ors/2x05.Strg4t.mHD720p.mkv.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  6</title>
+<link>http://streamcloud.eu/7uemdpj6ki6q/Stargate.SG1.2x06.El_carro_de_Thor.avi.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  7</title>
+<link>http://streamcloud.eu/rt3wkd8fwvem/2x07.Strg4t.mHD720p.mkv.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  8</title>
+<link>http://streamcloud.eu/a23f677to41f/Stargate.SG1.2x08.Familia.avi.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  9</title>
+<link>http://streamcloud.eu/llfqbt72kjdu/Stargate.SG1.2x09.Secretos.avi.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  10</title>
+<link>http://streamcloud.eu/9xrqajw2ps4v/Stargate.SG1.2x10.Pesadilla.avi.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  11</title>
+<link>http://streamcloud.eu/43vje3vfun28/StrGteSG1.Es.0211.avi.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  12</title>
+<link>http://streamcloud.eu/j9w1j2vz6nlu/StrGteSG1.Es.0212.avi.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  13</title>
+<link>http://streamcloud.eu/07750y13bokj/StrGteSG1.Es.0213.avi.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  14</title>
+<link>http://streamcloud.eu/ywhnklo029fj/Stargate.SG1.2x14.Touchstone.avi.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  15</title>
+<link>http://streamcloud.eu/6mr3k5w2oqnp/StrGteSG1.Es.0215.avi.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  16</title>
+<link>http://streamcloud.eu/gcr2qu6m7dws/Stargate.SG1.2x16.Una_cuesti__n_de_tiempo.avi.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  17</title>
+<link>http://streamcloud.eu/hbyfipt0ynbg/Stargate.SG1.2x17.Vacaciones.avi.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  18</title>
+<link>http://streamcloud.eu/9a0sht19jzj4/Stargate_SG-1_2x18.avi.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  19</title>
+<link>http://streamcloud.eu/i1c95mavdtyv/Stargate.SG1.2x19.Un_paso_en_falso.avi.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  20</title>
+<link>http://streamcloud.eu/xsjh6hzzu3ks/Stargate.SG1.2x20.Amenaza_invisible.avi.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  21</title>
+<link>http://streamcloud.eu/vlsk4uxj1vj8/Stargate.SG1.2x21.1969.avi.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  22</title>
+<link>http://streamcloud.eu/75lagm60cdm5/Stargate.SG1.2x22.Desde_el_fondo_de_la_mente__1de2_.avi.html</link>
+<thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR lime]TEMPORADA 3[/COLOR]</title>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+<link>http://</link>
+</item>
+
+<item>
+<title>Capítulo  1</title>
+<link>http://streamcloud.eu/1m2yre1gpe4h/Stargate.SG1.3x01.Bajo_el_fuego__2de2_.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  2</title>
+<link>http://streamcloud.eu/w5w3scfyyjij/Stargate.SG1.3x02.Seth.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  3</title>
+<link>http://streamcloud.eu/o7f4bfobzlk4/StrGteSG1.Es.0303.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  4</title>
+<link>http://streamcloud.eu/r1owzrc49faj/StrGteSG1.Es.0304.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  5</title>
+<link>http://streamcloud.eu/85b3hufqyip5/SG1.03x05.ES.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  6</title>
+<link>http://streamcloud.eu/8nl3m3e81c3j/Stargate.SG1.3x06.Punto_de_vista.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  7</title>
+<link>http://streamcloud.eu/0ckdiymz18qq/Stargate.SG1.3x07.El_caza_recompensas.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  8</title>
+<link>http://streamcloud.eu/bw3cpjlqik74/Stargate.SG1.3x08.Demonios.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  9</title>
+<link>http://streamcloud.eu/z4vy7kwpcioz/Stargate.SG1.3x09.Reglas_de_batalla.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  10</title>
+<link>http://streamcloud.eu/if0q8zotdko2/Stargate.SG1.3x10.La_eternidad_en_un_d__a.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  11</title>
+<link>http://streamcloud.eu/2jsszgwlg333/Stargate.SG1.3x11.Pasado_y_presente.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  12</title>
+<link>http://streamcloud.eu/gxopzhsznj1r/StrGteSG1.Es.0312.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  13</title>
+<link>http://streamcloud.eu/2zcojre30a7c/Stargate.SG1.3x13.La_mala_hierba_nunca_muere__2de2_.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  14</title>
+<link>http://streamcloud.eu/xz33n4yv7c0a/Stargate.SG1.3x14.Asentamiento.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  15</title>
+<link>http://streamcloud.eu/bsfma1glbwdh/Stargate.SG1.3x15.El_pretexto.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  16</title>
+<link>http://streamcloud.eu/438dmqmpka5j/Stargate.SG1.3x16.Urgo.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  17</title>
+<link>http://streamcloud.eu/ne0y55f6ca2r</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  18</title>
+<link>http://streamcloud.eu/04zvkaqaqv5u/Stargate.SG1.3x18.Ni_blanco_ni_negro.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  19</title>
+<link>http://streamcloud.eu/1xqo3lefh6nw/Stargate.SG1.3x19.Nuevas_Tierras.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  20</title>
+<link>http://streamcloud.eu/7t2opkmayma6/Stargate.SG1.3x20.Instinto_maternal.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  21</title>
+<link>http://streamcloud.eu/k3kczf65il57/StrGteSG1.Es.0321.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  22</title>
+<link>http://streamcloud.eu/9ds2pkmcxa6v/StrGteSG1.Es.0322.avi.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/53/Sg1-poster.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR lime]TEMPORADA 4[/COLOR]</title>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+<link>http://</link>
+</item>
+
+<item>
+<title>Capítulo  1</title>
+<link>http://streamcloud.eu/6i3m8t7su9hm/Stargate.SG1.4x01.Pequenias_victorias.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  2</title>
+<link>http://streamcloud.eu/g8v95eimt8za/Stargate.SG1.4x02.El_otro_lado.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  3</title>
+<link>http://streamcloud.eu/kwc6in2nkxyl/Stargate.SG1.4x03.Transformaciones.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  4</title>
+<link>http://streamcloud.eu/o0yvrtnhdkt7/Stargate.SG1.4x04.Encrucijada.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  5</title>
+<link>http://streamcloud.eu/f726gyqpfjw8/StrGteSG1.Es.0405.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  6</title>
+<link>http://streamcloud.eu/41523e5uux2n/Stargate.SG1.4x06.Una_ventana_a_la_esperanza.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  7</title>
+<link>http://streamcloud.eu/bjlq9mkntf60/Stargate.SG1.4x07.La_puerta_acu__tica.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  8</title>
+<link>http://streamcloud.eu/0h86bgw5y68l/Stargate.SG1.4x08.Los_primeros.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  9</title>
+<link>http://streamcloud.eu/6znqjnfdpa0d/Stargate.SG1.4x09.Tierra_arrasada.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  10</title>
+<link>http://streamcloud.eu/q6oejtt3maof/Stargate.SG1.4x10.Bajo_la_superficie.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  11</title>
+<link>http://streamcloud.eu/3t5w54oyb297/Stargate.SG1.4x11.Punto_sin_retorno.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  12</title>
+<link>http://streamcloud.eu/dnohgfmy5zr3/Stargate.SG1.4x12.Tangentes.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  13</title>
+<link>http://streamcloud.eu/yk46xycx49pb/Stargate.SG1.4x13.La_maldici__n.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  14</title>
+<link>http://streamcloud.eu/pcigvcj0moy6/Stargate.SG1.4x14.El_veneno_de_la_serpiente.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  15</title>
+<link>http://streamcloud.eu/ggb1o1gr2exa/Stargate.SG1.4x15.Reacci__n_en_cadena.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  16</title>
+<link>http://streamcloud.eu/i8vx90d06z2d/Stargate.SG1.4x16.2010.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  17</title>
+<link>http://streamcloud.eu/ylyfoq7uh18f/Stargate.SG1.4x17.Poder_absoluto.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  18</title>
+<link>http://streamcloud.eu/bgjfsqvw668j/Stargate.SG1.4x18.La_luz.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  19</title>
+<link>http://streamcloud.eu/g3q15f0akeyn/Stargate.SG1.4x19.Prodigio.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  20</title>
+<link>http://streamcloud.eu/haou0tkeo58m/Stargate.SG1.4x20.El_Ente.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  21</title>
+<link>http://streamcloud.eu/p13p2fjltm8r/Stargate.SG1.4x21.Doble_Riesgo.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  22</title>
+<link>http://streamcloud.eu/79t7aas2qhee/Stargate.SG1.4x22.Exodo.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR lime]TEMPORADA 5[/COLOR]</title>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+<link>http://</link>
+</item>
+
+<item>
+<title>Capítulo  1</title>
+<link>http://streamcloud.eu/gw1pptayye5s/strg.sg1.Esp.F.5x01_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  2</title>
+<link>http://streamcloud.eu/fy33sib0322q/Stargate.SG1.5x02.Umbral_.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  3</title>
+<link>http://streamcloud.eu/m5xz5i4v913m/Stargate.SG1.5x03.Ascensi__n.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  4</title>
+<link>http://streamcloud.eu/ytpzdtm12cg4/Stargate.SG1.5x04.El_quinto_hombre.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  5</title>
+<link>http://streamcloud.eu/kp27owyd50h7/Stargate.SG1.5x05.Cielo_rojo.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  6</title>
+<link>http://streamcloud.eu/djex4626lv3e/Stargate.SG1.5x06.Rito_de_iniciaci__n.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  7</title>
+<link>http://streamcloud.eu/p7izfx8nllmi/Stargate.SG1.5x07.Bestia_de_carga.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  8</title>
+<link>http://streamcloud.eu/47ii0lov1nf1/Stargate.SG1.5x08.La_tumba.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  9</title>
+<link>http://streamcloud.eu/y13s2zyy9bdk/Stargate.SG1.5x09.Entre_dos_fuegos.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  10</title>
+<link>http://streamcloud.eu/sx3mz7p65ffa/Stargate.SG1.5x10.2001.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  11</title>
+<link>http://streamcloud.eu/1h23xk4h9tko/Stargate.SG1.5x11.Medidas_desesperadas.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  12</title>
+<link>http://streamcloud.eu/l71fvowi5562/Stargate.SG1.5x12.Agujero_extremo.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  13</title>
+<link>http://streamcloud.eu/5des5ponean0/Stargate.SG1.5x13.Terreno_de_pruebas.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  14</title>
+<link>http://streamcloud.eu/ytqrckqw5vk6/Stargate.SG1.5x14.48_Horas.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  15</title>
+<link>http://streamcloud.eu/usf0ipq8sp41/Stargate.SG1.5x15.Summit.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  16</title>
+<link>http://streamcloud.eu/zf4k036851zj/Stargate.SG1.5x16.La_ultima_batalla.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  17</title>
+<link>http://streamcloud.eu/m8e415guzqge/Stargate.SG1.5x17.Limite_de_seguridad.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  18</title>
+<link>http://streamcloud.eu/n1366ibudcit/StrGteSG1.Es.0518.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  19</title>
+<link>http://streamcloud.eu/tz47cr69j4s3/Stargate.SG1.5x19.La_amenaza.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  20</title>
+<link>http://streamcloud.eu/q9bu7o3bzasr/Stargate.SG1.5x20.El_centinela.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  21</title>
+<link>http://streamcloud.eu/cm5i27icrv52/Stargate.SG1.5x21.Meridiano.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  22</title>
+<link>http://streamcloud.eu/2mrsqlurh0mf/Stargate.SG1.5x22.Revelaciones.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR lime]TEMPORADA 6[/COLOR]</title>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+<link>http://</link>
+</item>
+
+<item>
+<title>Capítulo  1</title>
+<link>http://streamcloud.eu/4rp7wfm9nwce/strg.sg1.Esp.F.6x01_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  2</title>
+<link>http://streamcloud.eu/a7o7thp5zm8a/Stargate.SG1.6x02.Redenci__n__2___parte_.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  3</title>
+<link>http://streamcloud.eu/4e8ujqfxfyby/Stargate.SG1.6x03.Descenso.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  4</title>
+<link>http://streamcloud.eu/tagyjl5zd5zq/Stargate.SG1.6x04.Congelada.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  5</title>
+<link>http://streamcloud.eu/t8mwtwnq1im0/Stargate.SG1.6x05.Noct__mbulos.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  6</title>
+<link>http://streamcloud.eu/vb8urzw58fqh/Stargate.SG1.6x06.Abismo.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  7</title>
+<link>http://streamcloud.eu/kzm2eztvifm9/Stargate.SG1.6x07.Operaci__n_imaginaria.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  8</title>
+<link>http://streamcloud.eu/13o9yzglwhwp/Stargate.SG1.6x08.Los_otros_h__roes.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  9</title>
+<link>http://streamcloud.eu/83c6ywm16aop/Stargate.SG1.6x09.Lealtades.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  10</title>
+<link>http://streamcloud.eu/na2j6q2v1nao/Stargate.SG1.6x10.La_cura.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  11</title>
+<link>http://streamcloud.eu/uz0afvoaqepx/StrGteSG1.Es.0611.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  12</title>
+<link>http://streamcloud.eu/vr4npr4ktdue/Stargate.SG1.6x12.Selecci__n_antinatural.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  13</title>
+<link>http://streamcloud.eu/taiew7ul6911/StrGteSG1.Es.0613.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  14</title>
+<link>http://streamcloud.eu/nu84lyzt6umh/Stargate.SG1.6x14.Humo_y_espejos.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  15</title>
+<link>http://streamcloud.eu/lx0fy2rlrvqm/Stargate.SG1.6x15.Para__so_perdido.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  16</title>
+<link>http://streamcloud.eu/bvoigbz39112/Stargate.SG1.6x16.Metamorfosis.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  17</title>
+<link>http://streamcloud.eu/0ubiein27epb/Stargate.SG1.6x17.Revelaciones.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  18</title>
+<link>http://streamcloud.eu/juqwqhm8xjom/Stargate.SG1.6x18.Abandonados.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  19</title>
+<link>http://streamcloud.eu/n8lw49fckg24/Stargate.SG1.6x19.Sustituci__n.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  20</title>
+<link>http://streamcloud.eu/6ekradypg72a/Stargate.SG1.6x20.Recuerda.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  21</title>
+<link>http://streamcloud.eu/nq8h9pe1so4i/Stargate.SG1.6x21.Profec__a.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  22</title>
+<link>http://streamcloud.eu/klwk7m5271ee/Stargate.SG1.6x22.Punto_de_partida.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR lime]TEMPORADA 7[/COLOR]</title>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+<link>http://</link>
+</item>
+
+<item>
+<title>Capítulo  1</title>
+<link>http://streamcloud.eu/cwt37hvvpzhu/Stargate.SG1.7x01.Caido.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  2</title>
+<link>http://streamcloud.eu/cga0bz1gi2x3/Stargate.SG1.7x02.Regreso_a_casa.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  3</title>
+<link>http://streamcloud.eu/w6maqrjb61ss/Stargate.SG1.7x03.Equilibrio_precario.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  4</title>
+<link>http://streamcloud.eu/mz9i4zqti9rf/Stargate.SG1.7x04.Orfeo.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  5</title>
+<link>http://streamcloud.eu/cri7rdnvkrjt/Stargate.SG1.7x05.Revisiones.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  6</title>
+<link>http://streamcloud.eu/eu6o1x1yifyl/Stargate.SG1.7x06.Bote_salvavidas.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  7</title>
+<link>http://streamcloud.eu/wzyoqvge7fcb/Stargate.SG1.7x07.Enemigo_m__o.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  8</title>
+<link>http://streamcloud.eu/ep7msi6pkdj9/Stargate.SG1.7x08.Carrera_espacial.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  9</title>
+<link>http://streamcloud.eu/kx242buant0y/Stargate.SG1.7x09Vengador_2.0.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  10</title>
+<link>http://streamcloud.eu/cn6yen14b2et/StrGteSG1.Es.0710.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  11</title>
+<link>http://streamcloud.eu/rrkar3egwi01/Stargate.SG1.7x11.Evoluci__n_1___Parte.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  12</title>
+<link>http://streamcloud.eu/e0wftac21tsd/Stargate.SG1.7x12.Evoluci__n_2___Parte.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  13</title>
+<link>http://streamcloud.eu/rcgyh1q3rga3/Stargate.SG1.7x13.Grace.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  14</title>
+<link>http://streamcloud.eu/g8yiort8oft9/Stargate.SG1.7x14.Secuelas.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  15</title>
+<link>http://streamcloud.eu/a7tj0gs32qu7/Stargate.SG1.7x15.Quimera.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  16</title>
+<link>http://streamcloud.eu/idoi5486cti0/Stargate.SG1.7x16.Toque_de_difuntos.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  17</title>
+<link>http://streamcloud.eu/u9e5pwdcv3ch/Stargate.SG1.7x17.Heroes_parte_1.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  18</title>
+<link>http://streamcloud.eu/ow4dj4c1q76u/Stargate.SG1.7x18.Heroes_parte_2.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  19</title>
+<link>http://streamcloud.eu/oh1716u1o1g1/Stargate.SG1.7x19.Resurreccion.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  20</title>
+<link>http://streamcloud.eu/50klvfb5v8zw/Stargate.SG1.7x20.Toma_de_posesi__n.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  21 y 22</title>
+<link>http://streamcloud.eu/anjwbq9u6fxp/Stargate.SG1.7x21y22.La_ciudad_perdida.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR lime]TEMPORADA 8[/COLOR]</title>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+<link>http://</link>
+</item>
+
+<item>
+<title>Capítulo 1 y 2</title>
+<link>http://streamcloud.eu/0hzj3z72yx6f/strg.sg1.Esp.F.8x01.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  3</title>
+<link>http://streamcloud.eu/kfau60qptvfj/strg.sg1.Esp.F.8x03_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  4</title>
+<link>http://streamcloud.eu/6oailtaf11xr/strg.sg1.Esp.F.8x04_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  5</title>
+<link>http://streamcloud.eu/b6u8nxcdl50j/strg.sg1.Esp.F.8x05_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  6</title>
+<link>http://streamcloud.eu/bugogrd22kv0/strg.sg1.Esp.F.8x06_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  7</title>
+<link>http://streamcloud.eu/pu4hpbyxkcrr/strg.sg1.Esp.F.8x07_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  8</title>
+<link>http://streamcloud.eu/etczhni4t1v6/strg.sg1.Esp.F.8x08_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  9</title>
+<link>http://streamcloud.eu/ls5xxmy51udj/strg.sg1.Esp.F.8x09_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  10</title>
+<link>http://streamcloud.eu/1d3epk05oj3k/strg.sg1.Esp.F.8x10_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  11</title>
+<link>http://streamcloud.eu/6e5vukun9vv4/strg.sg1.Esp.F.8x11_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  12</title>
+<link>http://streamcloud.eu/pgkjbakmriem/strg.sg1.Esp.F.8x12_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  13</title>
+<link>http://streamcloud.eu/jshtqwaqz7g6/strg.sg1.Esp.F.8x13_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  14</title>
+<link>http://streamcloud.eu/ywnyqz11hs5w/strg.sg1.Esp.F.8x14_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  15</title>
+<link>http://streamcloud.eu/b2k66f3u9cdx/strg.sg1.Esp.F.8x15_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  16</title>
+<link>http://streamcloud.eu/7qed9jgc6pow/strg.sg1.Esp.F.8x16_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  17</title>
+<link>http://streamcloud.eu/a5fjh2g2vy7i/strg.sg1.Esp.F.8x17_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  18</title>
+<link>http://streamcloud.eu/et7okgkd6t6j/Stargate.SG1.8x18.Cabos_sueltos.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  19</title>
+<link>http://streamcloud.eu/grzv605r52ka/strg.sg1.Esp.F.8x19_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  20</title>
+<link>http://streamcloud.eu/8u6oxj1i9ry2/strg.sg1.Esp.F.8x20_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR lime]TEMPORADA 9[/COLOR]</title>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+<link>http://</link>
+</item>
+
+<item>
+<title>Capítulo  1</title>
+<link>http://streamcloud.eu/i7bwmtv7t17x/strg.sg1.Esp.F.9x01_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  2</title>
+<link>http://streamcloud.eu/g4x2dwy3cm8s/strg.sg1.Esp.F.9x02_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  3</title>
+<link>http://streamcloud.eu/9w2ioyupfd3w/strg.sg1.Esp.F.9x03_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  4</title>
+<link>http://streamcloud.eu/akib6tqqswr2/strg.sg1.Esp.F.9x04_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  5</title>
+<link>http://streamcloud.eu/s38pgnda61ac/strg.sg1.Esp.F.9x05_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  6</title>
+<link>http://streamcloud.eu/unry8n11v5x3/strg.sg1.Esp.F.9x06_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  7</title>
+<link>http://streamcloud.eu/m1b83qy0k7wu/strg.sg1.Esp.F.9x07_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  8</title>
+<link>http://streamcloud.eu/sadw3ze1xc2y/strg.sg1.Esp.F.9x08_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  9</title>
+<link>http://streamcloud.eu/gc7dvot4kxq2/strg.sg1.Esp.F.9x09_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  10</title>
+<link>http://streamcloud.eu/dn86k95pkjqq/strg.sg1.Esp.F.9x10_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  11</title>
+<link>http://streamcloud.eu/zrjnveb9xfm2/strg.sg1.Esp.F.9x11_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  12</title>
+<link>http://streamcloud.eu/3hhtsauba7ii/strg.sg1.Esp.F.9x12_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  13</title>
+<link>http://streamcloud.eu/ofyoz89f1dd4/strg.sg1.Esp.F.9x13_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  14</title>
+<link>http://streamcloud.eu/a94kfzcl5x33/strg.sg1.Esp.F.9x14_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  15</title>
+<link>http://streamcloud.eu/jgdi0j3cqrni/strg.sg1.Esp.F.9x15_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  16</title>
+<link>http://streamcloud.eu/60wx9l2yh8d9/strg.sg1.Esp.F.9x16_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  17</title>
+<link>http://streamcloud.eu/3p5lu2qtd1ys/strg.sg1.Esp.F.9x17_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  18</title>
+<link>http://streamcloud.eu/82cxzmnllhsx/strg.sg1.Esp.F.9x18_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  19</title>
+<link>http://streamcloud.eu/x2kv5d1gb2xe/strg.sg1.Esp.F.9x19_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  20</title>
+<link>http://streamcloud.eu/9qmg6l9udg42/strg.sg1.Esp.F.9x20_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR lime]TEMPORADA 10[/COLOR]</title>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+<link>http://</link>
+</item>
+
+<item>
+<title>Capítulo  1</title>
+<link>http://streamcloud.eu/tqfptlpqnvcm/strg.sg1.Esp.F.10x01_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  2</title>
+<link>http://streamcloud.eu/c0ystfipcihy/strg.sg1.Esp.F.10x02_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  3</title>
+<link>http://streamcloud.eu/8rjhr57ny7ad/strg.sg1.Esp.F.10x03_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  4</title>
+<link>http://streamcloud.eu/iy7lvwrxuusc/strg.sg1.Esp.F.10x04_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  5</title>
+<link>http://streamcloud.eu/mqjuu4lhl8ds/strg.sg1.Esp.F.10x05_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  6</title>
+<link>http://streamcloud.eu/vt82y6z5556z/strg.sg1.Esp.F.10x06_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  7</title>
+<link>http://streamcloud.eu/9cqa0hfeq9f0/strg.sg1.Esp.F.10x07_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  8</title>
+<link>http://streamcloud.eu/kuyzofa8cx9c/strg.sg1.Esp.F.10x08_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  9</title>
+<link>http://streamcloud.eu/vto79z77ffs2/strg.sg1.Esp.F.10x09_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  10</title>
+<link>http://streamcloud.eu/bqg2hp1oppup/strg.sg1.Esp.F.10x10_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  11</title>
+<link>http://streamcloud.eu/932obn9jqn4w/strg.sg1.Esp.F.10x11_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  12</title>
+<link>http://streamcloud.eu/c9zg33ogtbiy/strg.sg1.Esp.F.10x12_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  13</title>
+<link>http://streamcloud.eu/awykc1zdneql/strg.sg1.Esp.F.10x13_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  14</title>
+<link>http://streamcloud.eu/07y3bk1mwjt3/strg.sg1.Esp.F.10x14_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  15</title>
+<link>http://streamcloud.eu/c2qm7wn03etn/strg.sg1.Esp.F.10x15_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  16</title>
+<link>http://streamcloud.eu/x1uke26at2xi/strg.sg1.Esp.F.10x16_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  17</title>
+<link>http://streamcloud.eu/5xi6zk5nzbnp/strg.sg1.Esp.F.10x17_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  18</title>
+<link>http://streamcloud.eu/ua785n7ofdmu/strg.sg1.Esp.F.10x18_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  19</title>
+<link>http://streamcloud.eu/7zm1sfjaxd32/strg.sg1.Esp.F.10x19_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
+
+<item>
+<title>Capítulo  20 Final</title>
+<link>http://streamcloud.eu/qiaywpuecbw2/strg.sg1.Esp.F.10x20_ES.avi.html</link>
+<thumbnail>http://4.bp.blogspot.com/-E6hc8D3zCHQ/VZvCCI9_nSI/AAAAAAAAEhE/K_sl-tXAmDE/s1600/1%2B%25281%2529.jpg</thumbnail>
+<fanart>https://www.tvequals.com/wp-content/uploads/2012/04/Stargate_SG1_03_1024x7682-team.jpg</fanart>
+</item>
