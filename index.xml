@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>INKA SERIES</title>
+
+<link>$doregex[makelist0]</link>
+
+<regex>
+<name>makelist0</name>
+<listrepeat><![CDATA[
+<title>Pagina [makelist0.param1]</title>
+<link>$doregex[makelist1]</link>
+]]></listrepeat>
+<expres>'(.*?)'</expres>
+<page>'1''2''3''4''5''6''7''8''9''10''11''12''13''14''15''16''17''18''19''20''21''22''23''24''25'26'27'</page>
+</regex>
+
+<regex>
+<name>makelist1</name>
+<listrepeat><![CDATA[
+<SetViewMode>55</SetViewMode>
+<title>[COLOR lightblue][makelist1.param2]   </title>
+<link>$doregex[makelist2]</link>
+<fanart>[makelist1.param3]</fanart>
+<thumbnail>[makelist1.param3]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[poster\"\shref="(.*?)"\stitle="(.*?)".*?src="(.*?)"]]></expres>
+<page>http://www.inkaseries.com/ultimas-series-agregadas/page/[makelist0.param1]/</page>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<SetViewMode>55</SetViewMode>
+<title>[COLOR lightblue][makelist1.param2] - [makelist2.param3]    </title>
+<link>$doregex[makelist3]</link>
+<fanart>[makelist1.param3]</fanart>
+<thumbnail>[makelist1.param3]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[a\shref="(.*?)"\stitle="(T.*?)">(.*?)-]]></expres>
+<page>[makelist1.param1]</page>
+</regex>
+
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<SetViewMode>55</SetViewMode>
+<title>[COLOR lightblue][makelist1.param2] - [makelist2.param3]  | [COLOR lightgreen][B][makelist3.param4][/B]  [COLOR lightblue][B][makelist3.param5][/B]  [COLOR  aquamarine]Server:[B][makelist3.param3][/B]        </title>
+<urlsolve>[makelist3.param1]</urlsolve>
+<fanart>[makelist1.param3]</fanart>
+<thumbnail>[makelist1.param3]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[domain=(http://gamovideo.*?|https://vidoza.*?|https://kingvid.*?|https://openload.*?|https://streamango.*?)"\s.*?title="(.*?)".*?span>(.*?)<.*?<td>(.*?)<.*?<td>(.*?)<]]></expres>
+<page>[makelist2.param1]</page>
+</regex>
+<thumbnail></thumbnail>
+<fanart>http://zonadjjavi.webcindario.com/fanart.jpg</fanart>
+</item>
+
+
+
+--------------------------------------------------------------------------
+
+
+
+
+
+
+
+<item>
+<title>ALMACEN 13</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/alcamen13.xml</externallink>
+<thumbnail>http://es.web.img2.acsta.net/pictures/14/04/09/13/00/411813.jpg</thumbnail>
+<fanart>http://images5.fanpop.com/image/photos/29400000/The-Cast-hg-and-myka-29411496-1920-1200.jpg</fanart>
+</item>
+
+<item>
+<title>ARROW</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/arrow.xml</externallink>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/75/5f/63/755f63ed458cc6970942c57b00b9a21f.jpg</thumbnail>
+<fanart>http://www.bolsamania.com/seriesadictos/wp-content/uploads/2014/12/arrow.jpg</fanart>
+</item>
+
+
+<item>
+<title>CASTLE</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/castle.xml</externallink>
+<thumbnail>https://pbs.twimg.com/media/CNgcN3aWEAAYUY6.jpg</thumbnail>
+<fanart>https://elpais.com/cultura/imagenes/2016/05/13/television/1463094798_749098_1463129008_noticia_fotograma.jpg</fanart>
+</item>
+
+<item>
+<title>CSI LAS VEGAS</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/csi_LV.xml</externallink>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/e/e1/CSI_Crime_Scene_Investigation_-_The_Complete_7th_Season.jpg</thumbnail>
+<fanart>https://mdsrwdassets-a.akamaihd.net/eimg/2016/12/24/nEdv85cwPado6rB4A5v937.jpg?w=1024</fanart>
+</item>
+
+<item>
+<title>CSI MIAMI</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/csi_MI.xml</externallink>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/91WNH8j5F8L._SL1500_.jpg</thumbnail>
+<fanart>http://images.amcnetworks.com/wetv.com/wp-content/uploads/2012/08/csi_show_hero_x_1920x1080-1600x800.jpg</fanart>
+</item>
+
+<item>
+<title>CSI NUEVA YORK</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/csi_NY.xml</externallink>
+<thumbnail>http://www.temporadafinal.com/gallery/53cd642d03b5ccsi-ny-the-fifth-season-dvd-cover-.jpg</thumbnail>
+<fanart>https://la.axn.com/sites/la.axn/files/styles/image_700x394/public/csi_ny_wallpaper_1280x1024_1.jpg?itok=eXwOAHKB</fanart>
+</item>
+
+<item>
+<title>CSI CYBER</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/csicyber.xml</externallink>
+<thumbnail>http://www.gstatic.com/tv/thumb/tvbanners/11858071/p11858071_b_v8_ab.jpg</thumbnail>
+<fanart>https://static-latercera-qa.s3.amazonaws.com/wp-content/uploads/sites/7/20160512/2291870.jpg</fanart>
+</item>
+
+<item>
+<title>DRAGON BALL SUPER</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/Dragon_Ball_Super.xml</externallink>
+<thumbnail>http://ap.imagensbrasil.org/images/2017/02/15/2.png</thumbnail>
+<fanart>https://www.cinemascomics.com/wp-content/uploads/2017/11/dragon-ball-super-final.jpg</fanart>
+</item>
+
+<item>
+<title>EUREKA</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/eureka.xml</externallink>
+<thumbnail>https://pics.filmaffinity.com/eureka_tv_series-476241319-large.jpg</thumbnail>
+<fanart>http://fuertecito.groarl.com/files/2012/07/eurfin1.jpeg</fanart>
+</item>
+
+<item>
+<title>LEYENDAS DEL MAÑANA</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/Leyendas.xml</externallink>
+<thumbnail>https://i.ytimg.com/vi/jpX-jeQjQNQ/hqdefault.jpg</thumbnail>
+<fanart>https://1.bp.blogspot.com/-QZIjuOl3t14/V0Oe7-_DvOI/AAAAAAAATCs/XhkZ26LAChsMuNgn_CkGSY_0QrDQZZLcwCLcB/s1600/t4amVXoUt4aMOEqPtwVwGhozVND.jpg</fanart>
+</item>
+
+<item>
+<title>LUCIFER</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/Lucifer.xml</externallink>
+<thumbnail>http://www.icmedianet.org/wp/ndog/wp-content/uploads/2016/07/lucifer.jpg</thumbnail>
+<fanart>https://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/49613.jpg</fanart>
+</item>
+
+
+<item>
+<title>SACTUARY</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/sanctuary.xml</externallink>
+<thumbnail>http://www.najfilmy.sk/serialy/img/upload/sanctuary-movie-poster-2007-1020493718.jpg</thumbnail>
+<fanart>http://epguides.com/Sanctuary/cast.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title>SE HA ESCRITO UN CRIMEN</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] </title>
+        <link>$doregex[getUrl]</link>
+<fanart>http://es.web.img3.acsta.net/r_1280_720/pictures/14/05/14/12/28/094677.jpg</fanart>
+<thumbnail>https://imagessl9.casadellibro.com/m/ig/9/2401839.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/se-ha-escrito-un-crimen-completa-20531/list,1,100</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/cine-catastrofico-86100/list,1,10</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>http://es.web.img3.acsta.net/r_1280_720/pictures/14/05/14/12/28/094677.jpg</fanart>
+<thumbnail>https://imagessl9.casadellibro.com/m/ig/9/2401839.jpg</thumbnail>
+</item>
+SMALLVILLE
+<item>
+<title>SMALLVILLE</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] </title>
+        <link>$doregex[getUrl]</link>
+<fanart>https://fsmedia.imgix.net/10/08/52/7d/c766/4341/823e/13c7bc5c9828/smallvillejpg.jpeg</fanart>
+<thumbnail>http://toptvshows.co/images/tvimages/smallville-tv-show-poster.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chinchetas/smallville-castellano-todas-temporadas-35439/list,1,100</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/cine-catastrofico-86100/list,1,10</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>https://fsmedia.imgix.net/10/08/52/7d/c766/4341/823e/13c7bc5c9828/smallvillejpg.jpeg</fanart>
+<thumbnail>http://toptvshows.co/images/tvimages/smallville-tv-show-poster.jpg</thumbnail>
+</item>
+
+<item>
+<title>STARGATE ATLANTIS</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/Stargate_Atlantis.xml</externallink>
+<thumbnail>http://www.parallelreality-bg.com/images/stories/Ezoterika1/Olympics2012/176.jpg</thumbnail>
+<fanart>http://www.shemoviegeek.com/wp-content/uploads/2016/12/stargate_atlantis.jpg</fanart>
+</item>
+
+<item>
+<title>STARGATE SG-1</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/StargateSG1.xml</externallink>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/9/9a/Stargate_SG-1_cast_minus_Jonas_Quinn.jpg</thumbnail>
+<fanart>http://rwrant.co.za/wp-content/uploads/2009/09/Stargate-SG1_029.jpg</fanart>
+</item>
+
+<item>
+<title>STARGATE UNIVERSE</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/Stargate_Universe.xml</externallink>
+<thumbnail>https://repasoenserie.files.wordpress.com/2014/04/a1d48-stargate-universe-sdcc-poster.jpg</thumbnail>
+<fanart>https://ladygeekgirl.files.wordpress.com/2015/04/stargate-universe-cast.jpg</fanart>
+</item>
+
+<item>
+<title>SUPERGIRL</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/Supergirl.xml</externallink>
+<thumbnail>http://www.icmedianet.org/wp/ndog/wp-content/uploads/2015/12/Supergirl_1920x1080_586896_640x360.jpg</thumbnail>
+<fanart>http://cdn.wegotthiscovered.com/wp-content/uploads/2017/05/Supergirl-S2-BD2-banner.jpg</fanart>
+</item>
+
+<item>
+<title>TRANSPORTER</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/Transporter.xml</externallink>
+<thumbnail>http://www.bolsamania.com/seriesadictos/wp-content/uploads/2014/07/transporter-600.jpg</thumbnail>
+<fanart>http://www.bolsamania.com/seriesadictos/wp-content/uploads/2014/07/transporter-600.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>THE FLASH</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/The_Flash.xml</externallink>
+<thumbnail>http://redlan.com.ar/wp-content/uploads/2016/06/TheFlashS3B-RedLanComics.jpg</thumbnail>
+<fanart>https://vignette.wikia.nocookie.net/arrow/images/6/69/The_Flash_title_card.png/revision/latest?cb=20141205055327<fanart>
+</item>
+
+<item>
+<title>THE LIBRARIANS</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/The_Librarians.xml</externallink>
+<thumbnail>http://www.themarysue.com/wp-content/uploads/2015/03/libs_article.jpg</thumbnail>
+<fanart>http://zonadjjavi.webcindario.com/Kodi/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>YO SOY BEA</title>
+ <link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/series/yo_soy_bea.xml</externallink>
+<thumbnail>http://estaticos01.elmundo.es/elmundo/imagenes/2007/08/17/1187350836_0.jpg</thumbnail>
+<fanart>http://www.zeleb.es/tv/sites/default/files/gtres_a00049600_002.jpg</fanart>
+</item>
